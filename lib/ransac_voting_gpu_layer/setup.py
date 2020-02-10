@@ -5,8 +5,8 @@ setup(
     name='ransac_voting',
     ext_modules=[
         CUDAExtension('ransac_voting', [
-            './src/ransac_voting.cpp',
-            './src/ransac_voting_kernel.cu'
+            '/content/copyydscsv/lib/ransac_voting_gpu_layer/src/ransac_voting.cpp',
+            '/content/copyydscsv/lib/ransac_voting_gpu_layer/src/ransac_voting_kernel.cu'
         ])
     ],
     cmdclass={
